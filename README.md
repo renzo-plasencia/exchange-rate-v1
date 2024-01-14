@@ -14,4 +14,5 @@ Se programó un script en Python usando las librerías **Selenium** y **Pandas**
 - Realizar análisis automático que busque la mejor opción.
 - Enviar una alerta en Windows sobre la casa de cambio que tiene la mejor tasa ese día.
 
-- 
+# Script
+> Conoce el script completo: https://github.com/renzo-plasencia/exchange-rate-v1/blob/main/exchange_rate.py
