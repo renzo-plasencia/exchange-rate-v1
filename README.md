@@ -1,19 +1,17 @@
-# exchange-rate-v1
-Script en python para obtener el tipo de cambio de forma automatizada y diaria.
+# Exchange Rate Script
+## **¿Cuál es el objetivo?**
+El objetivo de este script es obtener de forma automática la tasa de tipo de cambio de una casa de cambio peruana específica. Se busca obtener la tasa de compra y venta de dólares de forma diaria y que se guarde dentro de un archivo que será revisado luego.
 
-**¿Cuál es el objetivo?**
-Obtener el tipo de cambio dólares de una casa de cambio peruana. En un periodo diario y que se agregue la información a un excel.
+## **Limitaciones:**
+- Algunas casas de cambio pueden demorar en actualizar su tasa de cambio.
+- La tasa puede variar al momento de hacer la compra final por factores externos.
 
-**Limitaciones:**
-- Las casas de cambio pueden demorar en actualizar su tasa.
-- La tasa puede variar al momento de hacer la compra final.
+## **¿Qué se usó?**
+Se programó un script en Python usando las librerías **Selenium** y **Pandas** para obtener el tipo de cambio de la página web y almacenarlo en un archivo de Excel. Se usó la libería selenium para ejecutar un script dentro de la web pública de la empresa y la libería Pandas para posteriormente guardar los datos en un DataFrame. Así mismo, luego de probar y tener el script completo se agregó al programador de tareas de Windows permitiendo que se ejecute de forma automática y repetitiva diariamente.
 
-**¿Qué se usó?**
-Se programó un script en Python usando Selenium y Pandas para obtener el tipo de cambio de la página web. Se usó selenium debido a que se ejecutaba un script dentro de la web y Pandas para guardar los datos en un DataFrame. 
-Así mismo, el programador de tareas de Windows para que se ejecute el script de forma repetitiva diariamente en un lapso de tiempo especificado.
+## **Siguientes Pasos:**
+- Guardar las tasas de compra y venta de dólares de otras casas de cambio online.
+- Realizar análisis automático que busque la mejor opción.
+- Enviar una alerta en Windows sobre la casa de cambio que tiene la mejor tasa ese día.
 
-
-**Pasos siguientes:**
-- Rescatar diferentes tasas de otras casas de cambio.
-- Realizar análisis automático de la mejor opción.
-- Enviar una alerta en windows sobre qué casa de cambio podría elegir ese día.
+- 
